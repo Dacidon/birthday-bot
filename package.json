@@ -1,0 +1,27 @@
+{
+  "name": "birthday_bot",
+  "version": "1.0.0",
+  "description": "Simple birthday TG bot. Can write birthdays with lowdb module.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "ts-node ./bot.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dacidon/birthday-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram"
+  ],
+  "author": "Dacidon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dacidon/birthday-bot/issues"
+  },
+  "homepage": "https://github.com/Dacidon/birthday-bot#readme",
+  "dependencies": {
+    "grammy": "^1.20.4",
+    "ts-node": "^10.9.2"
+  }
+}
